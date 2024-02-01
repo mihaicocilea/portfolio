@@ -9,8 +9,12 @@ body {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background: #1e453e; */
-  background: linear-gradient(314deg, #1e453e 0%, #182c25 74%);
+
+  background: linear-gradient(180deg, rgba(18, 24, 30, 0) -20%, #051218 95%);
+  background-image: url("../src/assets/images/background.PNG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 code {
