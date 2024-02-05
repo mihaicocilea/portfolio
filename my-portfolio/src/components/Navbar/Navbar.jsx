@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="bg-transparent p-5">
       <div className="container bg-white/[.08] mx-auto flex items-center justify-between text-white rounded-3xl border-[0.5px] border-[#535050] px-10 py-2">
-        <div className="font-[700] text-xl opacity-1">{`< MXCode />`}</div>
+        <div className="font-[700] text-xl opacity-1">{`<MXCode />`}</div>
 
         <div className="lg:hidden">
           <button className="focus:outline-none" onClick={toggleNavbar}>
@@ -24,7 +24,7 @@ const Navbar = () => {
           </button>
         </div>
 
-        <div className="hidden lg:block items-center font-[500]">
+        <div className="hidden lg:block items-center font-[600]">
           <ul className="flex space-x-10">
             <a href="#">Home</a>
             <a href="#">About</a>
