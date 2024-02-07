@@ -1,18 +1,23 @@
 import Divider from "../Divider/Divider";
 import TechStackIcons from "./TechStackIcons/TechStackIcons";
+import techStackList from "../TechStack/TechStackIcons/techStackList";
+import TitleComponent from "../TitleComponent/TitleComponent";
+
 const TechStack = () => {
   return (
     <>
-      <div className="flex flex-col justify-around items-center">
-        <div className="flex flex-col text-center">
-          <h1 className="text-[32px] text-white font-[600] px-5">Tech Stack</h1>
-          <p className="text-white/[.5] font-[500] mt-5 px-10">
-            Technologies & Tools I'm used to using, <br />
-            always open to new things
-          </p>
+      <div className="flex flex-col items-center mb-10">
+        <TitleComponent
+          title={"Tech Stack"}
+          subtitle={"Technologies"}
+          text={`Technologies and tools I have experience working with,\nalways open for new things & continuous learning`}
+        />
+        <div className="lg:max-w-[1200px] mt-3 mb-10 rounded-2xl mx-5">
+          <TechStackIcons
+            techStackList={techStackList}
+            divStyle="transition duration-300 ease-in-out hover:scale-125"
+          />
         </div>
-        <Divider />
-        <TechStackIcons />
       </div>
     </>
   );

@@ -9,8 +9,8 @@ const techStackList = [
   { name: "gitlab", text: "GitLab" },
   { name: "tailwind", text: "TailWind" },
   { name: "bootstrap5", text: "BootStrap" },
-  { name: "postman", text: "Postman" },
   { name: "materialui", text: "MaterialUI" },
+  { name: "postman", text: "Postman" },
   { name: "figma", text: "Figma" },
   { name: "vs", text: "VSCode" },
 ];
