@@ -1,13 +1,13 @@
 const Divider = () => {
   return (
     <>
-      <div className="inline-flex items-center justify-center w-full">
+      <div className="inline-flex items-center justify-center w-full ">
         {/* hr line */}
-        <hr className="w-64 h-1 my-10 bg-gray-200 border-0 rounded dark:bg-gray-700"></hr>
+        <hr className="w-64 h-1 my-8 bg-gray-200 border-0 rounded dark:bg-gray-700 "></hr>
         {/* svg image */}
-        <div className="absolute px-4 -translate-x-1/2 bg-[#413a59] left-1/2 dark:bg-gray-900">
+        <div className="absolute px-4 -translate-x-1/2 bg-[#051218] left-1/2 dark:bg-gray-900 ">
           <svg
-            className="w-4 h-4 text-white dark:text-gray-300"
+            className="w-4 h-4 text-white dark:text-gray-300 "
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"

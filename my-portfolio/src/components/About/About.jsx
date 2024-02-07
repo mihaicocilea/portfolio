@@ -1,52 +1,47 @@
-import profilePic from "../../assets/images/profil.png";
+import profilePic from "../../assets/images/coding.svg";
 import Button from "../Button/Button";
-import Divider from "../Divider/Divider";
-import Education from "../Timeline/Education/Education";
-import WorkExperience from "../Timeline/WorkExperience/WorkExperince";
+import TitleComponent from "../TitleComponent/TitleComponent";
 
 const About = () => {
   return (
     <>
-      <div className="container mx-auto flex flex-col lg:flex-row items-center text-white justify-center mt-[125px]">
-        <div className="flex flex-col items-center basis-1/2 px-5">
-          <h2 className="font-[700] text-[18px] uppercase text-[#c99fc6]">
-            About me
-          </h2>
-          <h1 className="text-[28px] font-[600] mb-10">Know who I am</h1>
-          <div className="">
-            <img
-              src={profilePic}
-              alt="profile picture"
-              className="w-[55%] mx-auto"
-            ></img>
-          </div>
-        </div>
-        <div className="basis-1/2">
-          <p className="text-justify text-white/[0.7] font-[400]">
-            Hi! I'm <strong>Mihai</strong>, a jr. Frontend Developer on a quest
-            to transform ideas into captivating digital realities. Armed with a
-            passion for <strong>clean code</strong> and{" "}
-            <strong>pixel-perfect design</strong>, I specialize in HTML, CSS,
-            and JavaScript to create seamless, user-centric experiences. As an
-            enthusiastic problem solver, I embrace <strong>challenges</strong>{" "}
-            as opportunities for growth. <br />
-            <br />
-            Proficient in HTML, CSS, and JavaScript, I thrive on creating
-            seamless and responsive interfaces that captivate users. I'm open to
-            new opportunities, collaborations and conversations. Let's create
-            something nice together!
-            <br />
-            <br />
-            Proficient in HTML, CSS, and JavaScript, I thrive on creating
-            seamless and responsive interfaces that captivate users. I'm open to
-            new opportunities, collaborations and conversations. Let's create
-            something nice together!
-            {/* <div className="flex mt-10">
+      <div className="container mx-auto flex flex-col justify-around items-center mt-[75px] ">
+        <TitleComponent
+          title={"Know who I am"}
+          subtitle={"About me"}
+          text={`Lorem ipsum dolor sit amet consectetur adipisicing elit.\nLorem ipsum dolor sit amet consectetur.`}
+        />
+        <div className="bg-white/[.04] rounded-2xl flex flex-col-reverse lg:flex-row justify-between items-center mx-5 my-5 shadow-[rgba(0,0,15,0.5)_10px_10px_5px_0px]">
+          <div className="px-5 xl:p-10 basis-3/5 xl:basis-1/2">
+            <p className="text-justify text-white/[0.7] font-[400] lg:pt-10">
+              Hi! I'm <strong>Mihai</strong>, a jr. Frontend Developer on a
+              quest to transform ideas into captivating digital realities. Armed
+              with a passion for <strong>clean code</strong> and{" "}
+              <strong>pixel-perfect design</strong>, I specialize in HTML, CSS,
+              and JavaScript to create seamless, user-centric experiences. As an
+              enthusiastic problem solver, I embrace <strong>challenges</strong>{" "}
+              as opportunities for growth. <br />
+              <br />
+              Proficient in HTML, CSS, and JavaScript, I thrive on creating
+              seamless and responsive interfaces that captivate users. I'm open
+              to new opportunities, collaborations and conversations. Let's
+              create something nice together!
+              {/* <div className="flex mt-10">
               <Education />
               <WorkExperience />
             </div> */}
-            <Button text="See more.." divStyle={"mt-10"} />
-          </p>
+            </p>
+            <div className="flex">
+              <Button text="See more.." link={"/about"} divStyle={"my-10"} />
+            </div>
+          </div>
+          <div className="flex justify-center basis-2/5 xl:basis-1/2">
+            <img
+              src={profilePic}
+              alt="profile picture"
+              className="w-full xl:w-[65%] mb-10 lg:mb-0 px-5 transition duration-300 ease-in-out hover:scale-105"
+            ></img>
+          </div>
         </div>
       </div>
     </>

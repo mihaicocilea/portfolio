@@ -15,6 +15,7 @@ const projectList = [
       { name: "js", text: "Javascript" },
       { name: "bootstrap5", text: "Bootstrap" },
     ],
+    github: "https://github.com/mihaicocilea/istoric-auto.ro",
   },
   {
     type: "React - Product & Order Page",
@@ -29,6 +30,7 @@ const projectList = [
       { name: "tailwind", text: "Tailwind" },
       { name: "materialui", text: "MaterialUi" },
     ],
+    github: "https://github.com/mihaicocilea/product-landing-page",
   },
   {
     type: "Landing Page",
@@ -42,6 +44,7 @@ const projectList = [
       { name: "js", text: "Javascript" },
       { name: "bootstrap5", text: "Bootstrap" },
     ],
+    github: "https://github.com/mihaicocilea/audio-website",
   },
 ];
 export default projectList;

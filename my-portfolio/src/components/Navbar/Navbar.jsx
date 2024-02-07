@@ -1,6 +1,7 @@
 // Navbar.js
 import React, { useState } from "react";
 import "boxicons";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +28,7 @@ const Navbar = () => {
         <div className="hidden lg:block items-center font-[600]">
           <ul className="flex space-x-10">
             <a href="#">Home</a>
-            <a href="#">About</a>
+            <Link to="/about">About</Link>
             <a href="#">Skills</a>
             <a href="#">Portfolio</a>
             <a href="#">Contact</a>
