@@ -4,8 +4,8 @@ const ConnectWithMe = () => {
   return (
     <>
       <div className="container mx-auto">
-        <div className="flex flex-col lg:flex-row items-center justify-between bg-gradient-to-r from-[#c0f7a9] to-[#83c5b7] rounded-2xl shadow-[rgba(0,0,15,0.5)_10px_10px_5px_0px] mx-5 my-10">
-          <div className="flex flex-col px-7 py-2 text-[#151e28]">
+        <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between bg-gradient-to-r from-[#c0f7a9] to-[#83c5b7] rounded-2xl shadow-[rgba(0,0,15,0.5)_10px_10px_5px_0px] mx-5 my-10">
+          <div className="flex flex-col px-7 py-2 text-[#151e28] basis-3/5">
             <h1 className="text-[28px] font-[600] ">
               Let's Connect and Create Something Amazing!
             </h1>
@@ -14,11 +14,11 @@ const ConnectWithMe = () => {
               <strong>Frontend Developer full-time </strong>position!
             </p>
           </div>
-          <div className="flex my-7 font-[500] px-10 py-5">
+          <div className="flex my-7 font-[500] px-5 py-5">
             <Button
               text={"Connect with me"}
               primary
-              buttonStyle={"bg-[#081822] text-white rounded-lg !p-5"}
+              buttonStyle={"!bg-[#081822] text-white rounded-lg !p-5"}
               link={"https://www.linkedin.com/in/mihai-cocilea/"}
               target
               icon={
