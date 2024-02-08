@@ -6,7 +6,7 @@ import TitleComponent from "../TitleComponent/TitleComponent";
 const TechStack = () => {
   return (
     <>
-      <div className="flex flex-col items-center mb-10">
+      <div className="flex flex-col items-center my-5">
         <TitleComponent
           title={"Tech Stack"}
           subtitle={"Technologies"}
