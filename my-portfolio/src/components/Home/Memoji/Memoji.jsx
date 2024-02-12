@@ -9,7 +9,7 @@ const Memoji = () => {
     const typed = new Typed(el.current, {
       strings: [
         "Hi, I'm Mihai",
-        "Jr. Frontend Developer",
+        "A jr. Frontend Developer",
         "Available for opportunities",
       ],
       typeSpeed: 100,

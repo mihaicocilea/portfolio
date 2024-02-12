@@ -1,7 +1,8 @@
 // Navbar.js
 import React, { useState } from "react";
 import "boxicons";
-import { Link } from "react-router-dom";
+import { Link as Navigate } from "react-router-dom";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,11 +28,18 @@ const Navbar = () => {
 
         <div className="hidden lg:block items-center font-[600]">
           <ul className="flex space-x-10">
-            <a href="#">Home</a>
-            <Link to="/about">About</Link>
-            <a href="#">Skills</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
+            <Navigate to="/">Home</Navigate>
+            <Link activeClass="active" smooth spy to="about">
+              About
+            </Link>
+
+            <Navigate to="/about" onClick={scroll.scrollToBottom}>
+              Skills
+            </Navigate>
+
+            <Link activeClass="active" smooth spy to="portfolio">
+              Portfolio
+            </Link>
           </ul>
         </div>
       </div>
@@ -39,11 +47,32 @@ const Navbar = () => {
       {isOpen && (
         <div className="lg:hidden bg-transparent text-white font-[500] py-2">
           <ul className="container mx-auto flex flex-col items-start space-y-4 bg-white/[.08] rounded-3xl border-[0.5px] border-[#535050] px-10 py-3">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Skills</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
+            <Navigate to="/" onClick={toggleNavbar}>
+              Home
+            </Navigate>
+            <Link
+              activeClass="active"
+              smooth
+              spy
+              to="about"
+              onClick={toggleNavbar}
+            >
+              About
+            </Link>
+
+            <Navigate to="/about" onClick={scroll.scrollToBottom}>
+              Skills
+            </Navigate>
+
+            <Link
+              activeClass="active"
+              smooth
+              spy
+              to="portfolio"
+              onClick={toggleNavbar}
+            >
+              Portfolio
+            </Link>
           </ul>
         </div>
       )}

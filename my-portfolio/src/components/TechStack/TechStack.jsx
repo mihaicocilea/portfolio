@@ -6,11 +6,11 @@ import TitleComponent from "../TitleComponent/TitleComponent";
 const TechStack = () => {
   return (
     <>
-      <div className="flex flex-col items-center my-5">
+      <div className="flex flex-col items-center my-5" id="skills">
         <TitleComponent
           title={"Tech Stack"}
           subtitle={"Technologies"}
-          text={`Technologies and tools I have experience working with,\nalways open for new things & continuous learning`}
+          text={`Technologies and tools I have experience working with, always open for new things & continuous learning`}
         />
         <div className="lg:max-w-[1200px] mt-3 mb-10 rounded-2xl mx-5">
           <TechStackIcons

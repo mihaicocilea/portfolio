@@ -45,3 +45,6 @@ code {
 .inset-shadow {
   box-shadow: 0px 0px 10px 10px black inset;
 }
+nav {
+  cursor: pointer !important;
+}

@@ -32,7 +32,7 @@ const ProjectCard = ({ projectList }) => {
             </p>
             {/* techStack icons */}
             <div className="mt-7 flex items-center flex-col">
-              <h2 className="text-[20px] font-[700] text-[16px] uppercase text-[#3EBA86]">
+              <h2 className="text-[20px] font-[700] text-[16px] uppercase text-[#98cfb6]">
                 Technologies used
               </h2>
               <TechStackIcons
