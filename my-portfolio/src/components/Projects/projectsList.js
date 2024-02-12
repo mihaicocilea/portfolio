@@ -6,8 +6,8 @@ const projectList = [
   {
     type: "Landing Page",
     title: "istoric-auto.ro",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam fugitlabore sequi accusamus commodi odit, hic fugiat necessitatibusexpedita optio unde quia modi consequuntur nihil aspernatur in velrecusandae saepe.",
+    description: `I developed a landing page for an affiliate
+      marketing collaborations with CarVertical.com . The landing page was designed as a car VIN checker to redirect and promote users to Carvertical.com, using HTML, CSS, BootStrap and JavaScript.`,
     image: istoricAuto,
     techstack: [
       { name: "html5", text: "HTML" },
@@ -20,8 +20,10 @@ const projectList = [
   {
     type: "React - Product & Order Page",
     title: "trending-zone.com",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam fugitlabore sequi accusamus commodi odit, hic fugiat necessitatibusexpedita optio unde quia modi consequuntur nihil aspernatur in velrecusandae saepe.",
+    description: `I developed a landing page built in React, using TailWindCSS and
+      Material UI and Facebook Pixel for Facebook Ads.
+      The site was made to promote a product and present it's features. It is
+      responsive and it's focused on the mobile user experience.`,
     image: lampadaProduct,
     techstack: [
       { name: "html5", text: "HTML" },
@@ -35,8 +37,10 @@ const projectList = [
   {
     type: "Landing Page",
     title: "boxe-difuzoare.ro",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam fugitlabore sequi accusamus commodi odit, hic fugiat necessitatibusexpedita optio unde quia modi consequuntur nihil aspernatur in velrecusandae saepe.",
+    description: `I developed a landing page for an affiliate
+      marketing collaborations with soundhouse.ro! The
+      landing page was designed to promote the respective products and
+      services using HTML, CSS, BootStrap, and JavaScript.`,
     image: audioWebsite,
     techstack: [
       { name: "html5", text: "HTML" },

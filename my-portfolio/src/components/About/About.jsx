@@ -5,11 +5,14 @@ import TitleComponent from "../TitleComponent/TitleComponent";
 const About = () => {
   return (
     <>
-      <div className="container mx-auto flex flex-col justify-around items-center mt-[120px] ">
+      <div
+        className="container mx-auto flex flex-col justify-around items-center mt-[120px] "
+        id="about"
+      >
         <TitleComponent
           title={"Know who I am"}
           subtitle={"About me"}
-          text={`Lorem ipsum dolor sit amet consectetur adipisicing elit.`}
+          text={`I am a hard-working and driven individual who isn't afraid to face a challenge`}
         />
         <div className="bg-white/[.04] rounded-2xl flex flex-col-reverse lg:flex-row justify-between items-center mx-5 my-5 shadow-[rgba(0,0,15,0.5)_10px_10px_5px_0px]">
           <div className="px-5 xl:p-10 basis-3/5 xl:basis-1/2 text-justify text-white/[0.7] font-[400] lg:pt-10">
@@ -25,7 +28,7 @@ const About = () => {
             <p className="hidden md:block mt-5">
               Proficient in HTML, CSS, and JavaScript, I thrive on creating
               seamless and responsive interfaces that captivate users. I'm open
-              to new opportunities, collaborations and conversations. Let's
+              to new opportunities, collaborations and conversations so Let's
               create something nice together!
             </p>
             <div className="flex">

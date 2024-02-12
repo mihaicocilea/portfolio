@@ -1,6 +1,6 @@
 import Button from "../Button/Button";
 import Memoji from "./Memoji/Memoji";
-import CV from "../../assets/files/CV-Mihai-Cocîlea.pdf";
+import CV from "../../assets/files/Mihai-Cocîlea.pdf";
 
 const Home = () => {
   return (
